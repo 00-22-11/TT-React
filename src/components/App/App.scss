@@ -1,0 +1,27 @@
+.input {
+  width: 25%;
+  border-color: none;
+
+  &:focus {
+    border-color: none;
+  }
+}
+
+.form {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.valid-hash {
+  color: red;
+  text-align: center;
+  font-size: 14px;
+}
+
+.invalid-hash {
+  border-color: red;
+
+  :focus {
+    box-shadow: red;
+  }
+}
